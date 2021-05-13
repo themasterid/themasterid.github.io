@@ -7,7 +7,12 @@
 }
 
 .h1 {
+  padding: 5px;
   text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: 50%;
+  box-shadow: 2px 2px 5px gray;
   text-shadow:1px 1px 5px  rgb(128, 128, 128);
 }
 
@@ -22,4 +27,13 @@ img {
 
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.parag {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  box-shadow: 2px 2px 5px gray;
+  text-shadow:1px 1px 5px  rgb(128, 128, 128);
 }
