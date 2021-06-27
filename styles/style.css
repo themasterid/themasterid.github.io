@@ -1,3 +1,12 @@
+div {
+  background-color: rgb(255, 244, 225);
+}
+
+li {
+  padding: 2px;
+  margin: 2px;
+}
+
 .content {
   margin-left: auto;
   margin-right: auto;
@@ -9,11 +18,12 @@
 .h1 {
   padding: 5px;
   text-align: center;
-  width: 200px;
+  width: 600px;
   margin-left: auto;
   margin-right: 50%;
   box-shadow: 2px 2px 5px gray;
   text-shadow:1px 1px 5px  rgb(128, 128, 128);
+  background-color: rgb(255, 226, 194);
 }
 
 img {
@@ -22,7 +32,7 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-  filter: grayscale(100%);
+  filter: grayscale(10%);
 }
 
 img:hover {
@@ -30,9 +40,33 @@ img:hover {
 }
 
 .parag {
-  width: auto;
+  border-radius: 5px;
+  width: 600px;
+  height: 100%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 50%;
+  padding: 5px;
+  box-shadow: 2px 2px 5px gray;
+  text-shadow:1px 1px 5px  rgb(128, 128, 128);
+  background-color: burlywood;
+}
+
+.parag_table_1 {
+  width: 100px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: 50%;
+  padding: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px gray;
+  text-shadow:1px 1px 5px  rgb(128, 128, 128);
+  background-color: burlywood;
+}
+
+.parag_table_2 {
+  width: 500px;
+  margin-left: auto;
+  margin-right: 50%;
   padding: 5px;
   box-shadow: 2px 2px 5px gray;
   text-shadow:1px 1px 5px  rgb(128, 128, 128);
