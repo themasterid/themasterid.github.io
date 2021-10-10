@@ -1,81 +1,182 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ru">
   <head>
+    <!-- Обязательные метатеги -->
     <meta charset="utf-8">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>CV Klepikov D.</title>
   </head>
-
   <body>
-    <div class = "content">
-      <div>
-        <div class = "photo">
-          <img src="images/KDV.jpg" alt="Василий Пупкин" title="Василий Пупкин">
-        </div> 
-          <h1 class = "h1">Клепиков Дмитрий</h1>
-            <p class = "parag">39 лет (родился 27 марта 1982), высшее образование</p>
-            <p class = "parag">Нур-Султан</p>
-            <p class = "parag">Гражданство: Казахстан</p>
-          <h1 class = "parag">Python-разработчик (back-end)</h1>
-            <p class = "parag">Полная занятость, готов к командировкам</p>
-            <p class = "parag">100 000 руб.</p>
-            <p class = "parag">Опыт работы 3 года</p>
+  <main>
+  <div class="container py-1 shadow-lg p-2 mb-2 bg-white rounded">
+    <div class="card mb-3 bg-light shadow-lg rounded" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-4 p-2 rounded">
+          <img 
+          height="70 px;"
+          class="img-fluid rounded mx-auto d-block"
+          src="images/Klepikov_D.jpg"
+          alt="Клепиков Д. В.">
+              <a href="https://github.com/themasterid/" class="mt-2 list-group-item list-group-item-action" target="_blank">
+              <img class="icon" src="images/github_icon.png" width="32" height="32" alt='github'>
+              @themasterid
+              </a>
+              <a href="https://vk.com/dvklepikov/" class="list-group-item list-group-item-action" target="_blank">
+              <img class="icon" src="images/vk_icon.png" width="32" height="32" alt='vk'>
+              @dvklepikov
+              </a>
+              <a href="https://www.facebook.com/dmitriy.v.klepikov/" class="list-group-item list-group-item-action" target="_blank">
+              <img class="icon" src="images/fb.png" width="32" height="32" alt='fb'>
+              @dmitriy.v.klepikov
+              </a>
+              <a href="https://linkedin.com/in/dmitriy-klepikov/" class="list-group-item list-group-item-action" target="_blank">
+              <img class="icon" src="images/linkedin.png" width="32" height="32" alt='linkedin'>
+              @dmitriy-klepikov
+              </a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 class="card-title">Клепиков Дмитрий</h3>
+            <h5 class="card-title">Python-разработчик (back-end)</h5>
+            <p class="card-text">30 лет, высшее образование, гражданин Республики Казахстан</p>
+            <p class="card-text">
+            <strong>Цель</strong>: Реализовать свои профессиональные навыки в области IT
+            по направлению <strong>Python-разработчик (back-end)</strong> с переходом в будущем на Golang.
+            </p>
+            <p class="card-text">
+            <strong>Email</strong>: thebrootos@gmail.com
+            </p>
+            <p class="card-text">
+            <strong>Tel</strong>: 8 (705) 814 14 20
+            </p>
+            <p class="card-text">
+            <strong>Портфолио</strong>: themasterid.pythonanywhere.com
+            </p>
+          </div>
+        </div>
       </div>
-        <table>
-          <tr>
-            <td>
-              <p class = "parag_table_1">cентябрь 2016<br>август 2019<br>3 года</p>
-            </td>
-            <td>
-                <p class = "parag">Python-разработчик (back-end)</p>
-                <p class = "parag">SkyEnglish, Москва</p>
-                <p class = "parag">Известная онлайн-платформа для изучения английского языка, более 1 млн. пользователей по всему миру</p>
-                <p class = "parag">
-                  <strong>Обязанности:</strong>
-                </p>
-                <li class = "parag">Связал данные мобильного приложения с данными сайта.</li>
-                <li class = "parag">Написал код PHP с функционалом чтения, записи и загрузки данных с мобильного и веб приложения в базу.</li>
-                <li class = "parag">Создал 2 графика для анализа данных с фильтрами по датам (ежедневно, еженедельно, ежемесячно и ежегодно). Графики включали в себя общие данные о записях пользователя, воспроизведенные с помощью line chart, bar chart & pie chart. Каждая точка на графике может быть детально изучена.</li>
-                <li class = "parag">Оптимизировал более 20000 строк кода: PHP - 7500, Java for Android - 13000</li>
-                <li class = "parag">Работал над безопасностью данных пользователя: шифрование (хэширование) паролей с использованием функции base64_encode.</li>
-                <p class = "parag">
-                  <strong>Достижения:</strong>
-                </p>
-                <li class = "parag">Провел анализ более 4000 тысяч строк мобильного приложения и оптимизировал до 1500 строк, производительность выросла в 3,5 раза.</li>
-                <li class = "parag">Внедрил идеи для развития приложения: использовать сложную структуру SQL запросов вместо повторяющегося кода, использовать платформу Git Hub для слияния разных частей приложения.</li>
-            </td>
-          </tr>
-        </table>
+    </div>
+
+<div class="card mb-3 bg-light shadow-lg rounded" style="max-width: 100%;">
+    <div class="col">
+      <div class="card-body">
+        <p class="card-text">
+        Технологии: Django, DRF, HTML5, CSS, Bootstrap, Python 3,
+        SQL, PostgreSQL, Redis, Docker, API... 
+        </p>
+      </div>
+    </div>
+</div>
 
 
-      <h1 class = "parag">Знания и навыки</h1>
-      <p class = "parag"><strong>Профессиональные навыки</strong>:
-            <li class = "parag">опыт работы с HTML5, CSS3, JS;</li>
-            <li class = "parag">знание JavaScript/JQuery;</li>
-            <li class = "parag">опыт адаптивной верстки;</li>
-            <li class = "parag">опыт создания HTML-страницы сайта на основе дизайн-макетов;</li>
-            <li class = "parag">опыт вёрстки сайтов и шаблонов для CMS;</li>
-            <li class = "parag">навыки привязки к пользовательскому интерфейсу скриптов, которые обеспечивают визуализацию и анимацию страниц сайта;</li>
-            <li class = "parag">навыки обеспечения необходимого уровня пользовательского интерфейса (UI — User Interface) и опыта взаимодействия (UX —
-            User Experience);</li>
-            <li class = "parag">знание CSS-фреймворков;</li>
-            <li class = "parag">знание кросс-браузерной верстки;</li>
-            <li class = "parag">знания PhotoShop;</li>
-            <li class = "parag">знание других языков программирования.</li>
-		</p>
-      <h1 class = "parag"><strong>Дополнительные сведения</strong>:</h1>
-      
-        <p class = "parag">Умение работать в режиме многозадачности и высокие аналитические способности позволяют мне эффективно работать с
+<div class="card mb-3 bg-light shadow-lg rounded table-responsive" style="max-width: 100%;">
+<div class="col">
+<div class="card-body">
+  <p class="card-text">Опыт работы</p>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Период</th>
+      <th scope="col">Основные достижения</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cентябрь 2016-август 2019<br>3 года</td>
+      <td>
+      <li>Связал данные мобильного приложения с данными сайта.</li>
+      <li>Написал код PHP с функционалом чтения, записи и загрузки данных с мобильного и веб приложения в базу.</li>
+      <li>Создал 2 графика для анализа данных с фильтрами по датам (ежедневно, еженедельно, ежемесячно и ежегодно). Графики включали в себя общие данные о записях пользователя, воспроизведенные с помощью line chart, bar chart & pie chart. Каждая точка на графике может быть детально изучена.</li>
+      <li>Оптимизировал более 20000 строк кода: PHP - 7500, Java for Android - 13000</li>
+      <li>Работал над безопасностью данных пользователя: шифрование (хэширование) паролей с использованием функции base64_encode.</li></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+<hr>
+<table class="table table-bordered border-primary">
+  <thead>
+    <tr>
+      <th scope="col">Профессиональные навыки</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <ul>
+    <td>
+      <li>опыт работы с HTML5, CSS3, JS;</li>
+      <li>знание JavaScript/JQuery;</li>
+      <li>опыт адаптивной верстки;</li>
+      <li>опыт создания HTML-страницы сайта на основе дизайн-макетов;</li>
+      <li>опыт вёрстки сайтов и шаблонов для CMS;</li>
+      <li>навыки привязки к пользовательскому интерфейсу скриптов, которые обеспечивают визуализацию и анимацию страниц сайта;</li>
+      <li>навыки обеспечения необходимого уровня пользовательского интерфейса (UI — User Interface) и опыта взаимодействия (UX —
+      User Experience);</li>
+      <li>знание CSS-фреймворков;</li>
+      <li>знание кросс-браузерной верстки;</li>
+      <li>знания PhotoShop;</li>
+      <li>знание других языков программирования.</li>
+    </td>
+    </ul>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="table table-bordered border-primary">
+  <thead>
+    <tr>
+      <th scope="col">Дополнительные сведения</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <p>Умение работать в режиме многозадачности и высокие аналитические способности позволяют мне эффективно работать с
       большими объёмами информации, быстро находить качественные решения сложных задач.</p>
-      
-      <h1 class = "parag"><strong>Иностранные языки</strong>:</h1>
-      <p class = "parag">Английский язык — разговорный</p>
-      <p class = "parag">Русский язык — разговорный</p>
-      <p class = "parag">Казахский язык — разговорный</p>
-    </div>    
-    <!-- <button>Change user</button>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/dates.js"></script> -->
-  </body>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-bordered border-primary">
+  <thead>
+    <tr>
+      <th scope="col">Иностранные языки</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <p>Английский язык — разговорный</p>
+      <p>Русский язык — разговорный</p>
+      <p>Казахский язык — разговорный</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>    
+</div> 
+</div>
+
+</main>
+
+<!-- Необязательный JavaScript; выберите один из двух! -->
+<!-- Вариант 1: пакет Bootstrap с Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!-- Вариант 2: отдельные JS для Popper и Bootstrap -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+-->
+</body>
 </html>
 
